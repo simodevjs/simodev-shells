@@ -48,20 +48,10 @@ done
 echo -e "\033[1;34m--------------------------------\033[0m"
 echo -e "\033[1;32mBackup completed successfully.\033[0m"
 
-# After backup, change directory to the backup path
-cd "$backup_path"
+cd "$backup_destination/"
+pwd
+git add .
+git commit -m "222"
+git push
 
-cd "$backup_path"
-
-# Find and rename hidden files, excluding .git and .gitignore
-find . -type f -name ".*" ! -name '.git' ! -name '.gitignore' -exec sh -c '
-  for file do
-    dir=$(dirname "$file")
-    basename=$(basename "$file")
-    if [[ $basename != .*git* ]]; then
-      newname=${basename#.}
-      mv "$file" "$dir/$newname"
-      echo "Renamed $file to $dir/$newname"
-    fi
-  done
-' sh {} +
+#echo -e "\033[1;34mUploaded to GiT Successfully.\033[0m"
