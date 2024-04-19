@@ -55,5 +55,8 @@ pwd
 git add .
 git commit -m "222"
 git push
-
+echo -e "\033[1;34m--------------------------------\033[0m"
 echo -e "\033[1;34mUploaded to GiT Successfully.\033[0m"
+
+echo -e "\033[1;34m--------------------------------\033[0m"
+
