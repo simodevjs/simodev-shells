@@ -8,6 +8,8 @@
 alias zp='/Volumes/MAC\ 2/Projects-/./zp'
 alias codf='cd /Users/••Sys/STCTS/V\>Coding-Tools'
 alias proj='cd /Volumes/Tube/X-Documents\ sur\ D/X-Gdrive/-Projects-Folio-User'
+alias projd='cd /Volumes/Tube/X-Documents\ sur\ D/X-Gdrive/-Projects-Folio-User'
+alias projg='cd /Users/mohamedmahla/Gdrive/\ •Go-Drive--\>\>\>/\ \ \>Mes\ Projets\</\ \ 🤖Coding-GiT🤖_G ' 
 alias py='python3'
 alias pip='pip3'
 alias mysqldb='/usr/local/mysql/bin/mysql -u root -p'
@@ -37,6 +39,7 @@ alias srv2='~/./1-use_a_private_key'
 alias srvl='~/./2-use_a_private_key'
 
 alias fix='xattr -cr'
+alias bckdb='less /usr/local/bin/bck'
 alias aliadb='vim ~/.bash_profile'
 alias lsa='ls -lR | wc -l'
 alias cd..='cd ..'
@@ -232,3 +235,9 @@ export PATH
 
 export PYTHONPATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
 export LD_LIBRARY_PATH="/usr/local/lib"
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/mysql-client/lib"
+export CPPFLAGS="-I/usr/local/opt/mysql-client/include"
+export MYSQLCLIENT_CFLAGS="-I/usr/local/include/mysql"
+export MYSQLCLIENT_LDFLAGS="-L/usr/local/lib -lmysqlclient"
+

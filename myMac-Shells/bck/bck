@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Backup destination
 #backup_destination="/Users/mohamedmahla/Gdrive/ •Go-Drive-->>>/-Perso🙅🏽‍♂️Docs=>/X-My tech/ _BCK-MAC "
 backup_destination="/Volumes/Tube/X-Documents sur D/X-Gdrive/-Projects-Folio-User/simodev-shells/myMac-Shells"
 
