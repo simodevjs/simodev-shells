@@ -1,4 +1,15 @@
-#!/bin/sh
+#!/bin/bash
+
+# Check if an argument is provided
+if [ -z "$1" ]; then
+    # No argument provided, use default commit message "container"
+    commit_message="container"
+else
+    # Argument provided, use it as the commit message
+    commit_message="$1"
+fi
+
+# Perform git operations
 git add .
-git commit -m "222"
+git commit -m "$commit_message"
 git push
