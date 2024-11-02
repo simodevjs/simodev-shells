@@ -64,7 +64,7 @@ echo -e "\033[1;34m--------------------------------\033[0m"
 cd "$backup_destination/"
 pwd
 rm -rf BASH_PROFILE/bash_profile
-mv ".bash_profile" "BASH_PROFILE/bash_profile"
+mv ".bash_profile" "profile"
 #mv BASH_PROFILE/.bash_profile BASH_PROFILE/bash_profile
 git add .
 git commit -m "222"
