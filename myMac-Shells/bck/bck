@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #backup_destination="/Users/mohamedmahla/Gdrive/ •Go-Drive-->>>/-Perso🙅🏽‍♂️Docs=>/X-My tech/ _BCK-MAC "
-backup_destination="/Volumes/Tube/X-Documents sur D/X-Gdrive/-Projects-Folio-User/simodev-shells/myMac-Shells"
+backup_destination="/Volumes/Tube/X-Documents sur D/X-Gdrive/-Projects-Folio-User/-sdev-Shells/myMac-Shells"
 
 # Predefined list of directories or files to backup
 # You can keep this list empty if you always want to specify backup items via command-line arguments
