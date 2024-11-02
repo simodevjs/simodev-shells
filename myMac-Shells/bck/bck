@@ -52,7 +52,7 @@ for item in "${backup_items[@]}"; do
     fi
 
     # Perform the backup
-    rsync -avh --progress "$item" "$backup_path/"
+    rsync -avh --progress "$item" "$backup_path"
     echo -e "\033[1;32m$item_name backed up successfully to $backup_path\033[0m" # Green and bold text, displaying backup path
 done
 
