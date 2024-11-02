@@ -7,6 +7,7 @@ backup_destination="/Volumes/Tube/X-Documents sur D/X-Gdrive/-Projects-Folio-Use
 # You can keep this list empty if you always want to specify backup items via command-line arguments
 backup_items=(
     "$HOME/.bash_profile"
+    "$HOME/bash_profile"
     "/usr/local/bin/aa" #git scripts
     "/usr/local/bin/gg"
     "/usr/local/bin/bck"
